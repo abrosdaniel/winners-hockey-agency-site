@@ -1,5 +1,8 @@
-<img src=".github/assets/preview.png" width="100%">
-
+<p align="center">
+<a href ="https://wnrs.ru" target="_blank" title="WINNERS">
+<img src=".github/assets/logo.png" width="150px" alt="WINNERS"/>
+</a>
+</p>
 <div align="center">
 
 [![Site/Version](https://img.shields.io/badge/wnrs.ru-v_1.2-2A8F3B)](https://wnrs.ru)
@@ -70,7 +73,7 @@ Built with Next.js and powered by a headless CMS architecture, the website exemp
 Clone the repository
 
 ```bash
-git clone https://github.com/abrosdaniel/winners-site.git
+git clone https://github.com/abrosdaniel/winners-hockey-agency-site.git
 ```
 
 Create `.env` in the project root:
