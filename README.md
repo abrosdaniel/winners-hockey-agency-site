@@ -1,4 +1,13 @@
-<img src="./public/assets/img/og.png">
+<img src=".github/assets/preview.png" width="100%">
+
+<div align="center">
+
+[![Site/Version](https://img.shields.io/badge/wnrs.ru-v_1.2-2A8F3B)](https://wnrs.ru)
+[![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js)](https://nextjs.org)
+[![Directus](https://img.shields.io/badge/Directus-263238?logo=directus)](https://directus.io)
+[![N8N](https://img.shields.io/badge/N8N-EA4B71?logo=n8n&logoColor=white)](https://n8n.io)
+
+</div>
 
 ## Introduction
 
@@ -6,11 +15,13 @@ WINNERS Hockey Agency is a modern, cutting-edge website built for the profession
 
 Built with Next.js and powered by a headless CMS architecture, the website exemplifies modern web development practices in the sports industry, combining aesthetic design with robust functionality.
 
+<img src=".github/assets/home_page.gif" width="100%">
+
 # Table of Contents
 
 1. [Features](#features)
 2. [Stack](#stack)
-3. [Architecture](#architecture)
+3. [Quick Start](#quick-start)
 4. [Credits](#credits)
 
 ## Features
@@ -26,30 +37,59 @@ Built with Next.js and powered by a headless CMS architecture, the website exemp
 
 ## Stack
 
-| Frontend       | Backend  | Tools & Services |
-| -------------- | -------- | ---------------- |
-| Next.js        | Directus | Git              |
-| TanStack Query | N8N      | ESLint           |
-| TypeScript     |          | Prettier         |
-| TailwindCSS    |          | Docker           |
-| PostCSS        |          |                  |
-| Radix UI       |          |                  |
-| ShadcnUI       |          |                  |
-| Embla Carousel |          |                  |
-| Framer Motion  |          |                  |
-| GSAP           |          |                  |
-| Lucide         |          |                  |
-| reCAPTCHA      |          |                  |
-| Yandex Metrics |          |                  |
+- **Frontend:**
+  ![Next.js](https://img.shields.io/badge/Next.js-16.1.0-white?logo=next.js)
+  ![TanStack Query](https://img.shields.io/badge/TanStack_Query-5.90.12-FF4154?logo=tanstack)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-3178C6?logo=typescript&logoColor=white)
+  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.19-06B6D4?logo=tailwindcss&logoColor=white)
+  ![PostCSS](https://img.shields.io/badge/PostCSS-8.5.6-DD3A0A?logo=postcss)
+  ![Radix UI](https://img.shields.io/badge/Radix_UI-161618?logo=radixui)
+  ![shadcn/ui](https://img.shields.io/badge/shadcn/ui-black?logo=shadcnui)
+  ![Embla Carousel](https://img.shields.io/badge/Embla_Carousel-8.6.0-8FB3F6)
+  ![Motion](https://img.shields.io/badge/Motion-12.23.26-F7DF1E)
+  ![GSAP](https://img.shields.io/badge/GSAP-3.14.2-0AE448?logo=gsap&logoColor=white)
+  ![Lucide](https://img.shields.io/badge/Lucide-0.462.0-F56565?logo=lucide&logoColor=white)
+  ![reCAPTCHA](https://img.shields.io/badge/reCAPTCHA-4285F4)
+  ![Yandex Metrics](https://img.shields.io/badge/Yandex_Metrics-F90000)
 
-## Architecture
+- **Backend:**
+  ![Directus](https://img.shields.io/badge/Directus-11.3.2-263238?logo=directus)
+  ![N8N](https://img.shields.io/badge/N8N-1.71.2-EA4B71?logo=n8n&logoColor=white)
 
-- **Frontend:** Built with Next.js 14 using the App Router for optimal performance and SEO
-- **Backend:** Headless CMS powered by Directus for content management
-- **Automation:** N8N workflows for automated processes and integrations
-- **Deployment:** Containerized with Docker
-- **State Management:** TanStack Query for efficient server state management
-- **Styling:** TailwindCSS with custom design system and Radix UI primitives
+- **Tools & Services:**
+  ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+  ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github)
+  ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint)
+  ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=black)
+  ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+
+## Quick Start
+
+❗ You should already have Directus with tables and N8N with nodes set up.
+
+Clone the repository
+
+```bash
+git clone https://github.com/abrosdaniel/winners-site.git
+```
+
+Create `.env` in the project root:
+
+```env
+NEXT_PUBLIC_BASE_URL=your_project_url
+NEXT_PUBLIC_DIRECTUS_URL=your_directus_url
+NEXT_PUBLIC_N8N_FORM_URL=your_n8n_webhook_url
+NEXT_PUBLIC_RECAPTCHA_KEY=your_recaptcha_key
+NEXT_PUBLIC_YANDEX_METRIKA_ID=your_yandex_metrika_id
+```
+
+Standard Next.js commands:
+
+```bash
+npm run dev
+npm run build
+npm run start
+```
 
 ## Credits
 
