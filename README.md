@@ -18,7 +18,9 @@ WINNERS Hockey Agency is a modern, cutting-edge website built for the profession
 
 Built with Next.js and powered by a headless CMS architecture, the website exemplifies modern web development practices in the sports industry, combining aesthetic design with robust functionality.
 
-<img src=".github/assets/home_page.gif" width="100%">
+<video width="100%" autoplay muted loop>
+  <source src=".github/assets/home_page.mp4" type="video/mp4">
+</video>
 
 # Table of Contents
 
@@ -68,12 +70,22 @@ Built with Next.js and powered by a headless CMS architecture, the website exemp
 
 ## Quick Start
 
-❗ You should already have Directus with tables and N8N with nodes set up.
+❗ **Prerequisites:**
+
+- ✅ Node.js 18+ installed
+- ✅ Directus with tables configured
+- ✅ N8N with nodes set up
 
 Clone the repository
 
 ```bash
 git clone https://github.com/abrosdaniel/winners-hockey-agency-site.git
+```
+
+Install dependencies:
+
+```bash
+npm install
 ```
 
 Create `.env` in the project root:
