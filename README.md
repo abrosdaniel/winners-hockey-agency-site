@@ -18,9 +18,7 @@ WINNERS Hockey Agency is a modern, cutting-edge website built for the profession
 
 Built with Next.js and powered by a headless CMS architecture, the website exemplifies modern web development practices in the sports industry, combining aesthetic design with robust functionality.
 
-<video width="100%" autoplay muted loop>
-  <source src=".github/assets/home_page.mp4" type="video/mp4">
-</video>
+<img src=".github/assets/home_page.png" width="100%">
 
 # Table of Contents
 
